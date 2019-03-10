@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AnimeDetail test Test AnimeDetail snapshot 1`] = `
+<div>
+  <WithStyles(Card)>
+    <WithStyles(CardActionArea)>
+      <WithStyles(Grid)
+        container={true}
+        justify="center"
+      >
+        <WithStyles(Grid)
+          item={true}
+        >
+          <WithStyles(CardMedia)
+            component="img"
+            image="https://cdn.myanimelist.net/images/anime/4/19644.jpg"
+            title="Cowboy Bebop"
+          />
+        </WithStyles(Grid)>
+        <WithStyles(Grid)
+          item={true}
+        >
+          <WithStyles(CardContent)>
+            <WithStyles(Typography)
+              component="h3"
+              gutterBottom={true}
+              variant="h5"
+            >
+              Cowboy Bebop
+            </WithStyles(Typography)>
+            <WithStyles(Typography)
+              color="textSecondary"
+              variant="subtitle1"
+            />
+          </WithStyles(CardContent)>
+        </WithStyles(Grid)>
+      </WithStyles(Grid)>
+    </WithStyles(CardActionArea)>
+  </WithStyles(Card)>
+  <WithStyles(Paper)>
+    <WithStyles(List)>
+      <WithStyles(ListItem)>
+        <WithStyles(ListItemIcon)>
+          <pure(StarRateIcon) />
+        </WithStyles(ListItemIcon)>
+        <WithStyles(ListItemText)
+          primary={8.81}
+          secondary="score"
+        />
+      </WithStyles(ListItem)>
+      <WithStyles(ListItem)>
+        <WithStyles(ListItemIcon)>
+          <pure(MovieIcon) />
+        </WithStyles(ListItemIcon)>
+        <WithStyles(ListItemText)
+          primary="TV"
+          secondary="type"
+        />
+      </WithStyles(ListItem)>
+      <WithStyles(ListItem)>
+        <WithStyles(ListItemIcon)>
+          <pure(LiveTvIcon) />
+        </WithStyles(ListItemIcon)>
+        <WithStyles(ListItemText)
+          primary={26}
+          secondary="episodes"
+        />
+      </WithStyles(ListItem)>
+      <WithStyles(ListItem)>
+        <WithStyles(ListItemIcon)>
+          <pure(TvIcon) />
+        </WithStyles(ListItemIcon)>
+        <WithStyles(ListItemText)
+          primary="Finished Airing"
+          secondary="status"
+        />
+      </WithStyles(ListItem)>
+      <WithStyles(ListItem)>
+        <WithStyles(ListItemIcon)>
+          <pure(AccessTimeIcon) />
+        </WithStyles(ListItemIcon)>
+        <WithStyles(ListItemText)
+          primary="Saturdays at 01:00 (JST)"
+          secondary="broadcast"
+        />
+      </WithStyles(ListItem)>
+      <WithStyles(ListItem)
+        alignItems="flex-start"
+      >
+        <WithStyles(ListItemIcon)>
+          <pure(InfoIcon) />
+        </WithStyles(ListItemIcon)>
+        <WithStyles(ListItemText)
+          primary="In the year 2071, humanity has colonized several of the planets and moons of the solar system leaving the now uninhabitable surface of planet Earth behind. The Inter Solar System Police attempts to keep peace in the galaxy, aided in part by outlaw bounty hunters, referred to as \\"Cowboys.\\" The ragtag team aboard the spaceship Bebop are two such individuals. Mellow and carefree Spike Spiegel is balanced by his boisterous, pragmatic partner Jet Black as the pair makes a living chasing bounties and collecting rewards. Thrown off course by the addition of new members that they meet in their travels—Ein, a genetically engineered, highly intelligent Welsh Corgi; femme fatale Faye Valentine, an enigmatic trickster with memory loss; and the strange computer whiz kid Edward Wong—the crew embarks on thrilling adventures that unravel each member's dark and mysterious past little by little. Well-balanced with high density action and light-hearted comedy, Cowboy Bebop is a space Western classic and an homage to the smooth and improvised music it is named after. [Written by MAL Rewrite]"
+          secondary="synopsis"
+        />
+      </WithStyles(ListItem)>
+      <WithStyles(ListItem)>
+        <WithStyles(ListItemIcon)>
+          <pure(StyleIcon) />
+        </WithStyles(ListItemIcon)>
+        <WithStyles(ListItemText)
+          primary="Genres"
+        />
+      </WithStyles(ListItem)>
+      <WithStyles(List)
+        className="AnimeDetail-nested-1"
+      >
+        <WithStyles(ListItem)
+          key="Action"
+        >
+          <WithStyles(ListItemText)
+            primary="Action"
+          />
+        </WithStyles(ListItem)>
+        <WithStyles(ListItem)
+          key="Adventure"
+        >
+          <WithStyles(ListItemText)
+            primary="Adventure"
+          />
+        </WithStyles(ListItem)>
+        <WithStyles(ListItem)
+          key="Comedy"
+        >
+          <WithStyles(ListItemText)
+            primary="Comedy"
+          />
+        </WithStyles(ListItem)>
+        <WithStyles(ListItem)
+          key="Drama"
+        >
+          <WithStyles(ListItemText)
+            primary="Drama"
+          />
+        </WithStyles(ListItem)>
+        <WithStyles(ListItem)
+          key="Sci-Fi"
+        >
+          <WithStyles(ListItemText)
+            primary="Sci-Fi"
+          />
+        </WithStyles(ListItem)>
+        <WithStyles(ListItem)
+          key="Space"
+        >
+          <WithStyles(ListItemText)
+            primary="Space"
+          />
+        </WithStyles(ListItem)>
+      </WithStyles(List)>
+    </WithStyles(List)>
+  </WithStyles(Paper)>
+</div>
+`;

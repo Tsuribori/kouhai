@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Loading snapshot 1`] = `
+<WithStyles(Grid)
+  className="Loading-padded-1"
+  container={true}
+  justify="center"
+>
+  <WithStyles(Grid)
+    item={true}
+  >
+    <WithStyles(CircularProgress) />
+  </WithStyles(Grid)>
+</WithStyles(Grid)>
+`;

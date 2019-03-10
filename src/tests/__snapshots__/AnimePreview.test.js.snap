@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AnimePreview test Test AnimePreview snapshot 1`] = `
+<WithStyles(Grid)
+  item={true}
+  lg={2}
+  md={3}
+  sm={6}
+  xs={12}
+>
+  <WithStyles(Card)>
+    <WithStyles(CardActionArea)>
+      <div
+        className="AnimePreview-image-1"
+      >
+        <WithStyles(Grid)
+          container={true}
+          justify="center"
+        >
+          <WithStyles(Grid)
+            item={true}
+            xs={10}
+          >
+            <WithStyles(CardMedia)
+              component="img"
+              image="https://cdn.myanimelist.net/images/anime/4/19644.jpg"
+              title="Cowboy Bebop"
+            />
+          </WithStyles(Grid)>
+        </WithStyles(Grid)>
+      </div>
+      <WithStyles(CardContent)>
+        <WithStyles(Typography)
+          component="h3"
+          gutterBottom={true}
+          variant="h5"
+        >
+          Cowboy Bebop
+        </WithStyles(Typography)>
+      </WithStyles(CardContent)>
+    </WithStyles(CardActionArea)>
+    <WithStyles(CardActions)>
+      <WithStyles(Button)
+        color="primary"
+        component={[Function]}
+        size="small"
+        to="/anime/1"
+      >
+        More
+      </WithStyles(Button)>
+    </WithStyles(CardActions)>
+  </WithStyles(Card)>
+</WithStyles(Grid)>
+`;
