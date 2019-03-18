@@ -79,9 +79,9 @@ exports[`App test Test App snapshot 1`] = `
         path="/schedule"
       />
       <Route
-        component={[Function]}
         exact={true}
         path="/search"
+        render={[Function]}
       />
     </div>
     <WithStyles(Fab)
@@ -110,7 +110,7 @@ exports[`App test Test App snapshot 2`] = `
             <pure(MenuIcon) />
           </WithStyles(IconButton)>
           <WithStyles(Menu)
-            anchorEl={<UNDEFINED />}
+            anchorEl={<pure(MenuIcon) />}
             onClose={[Function]}
             open={true}
           >
@@ -174,9 +174,9 @@ exports[`App test Test App snapshot 2`] = `
         path="/schedule"
       />
       <Route
-        component={[Function]}
         exact={true}
         path="/search"
+        render={[Function]}
       />
     </div>
     <WithStyles(Fab)
@@ -269,9 +269,9 @@ exports[`App test Test App snapshot 3`] = `
         path="/schedule"
       />
       <Route
-        component={[Function]}
         exact={true}
         path="/search"
+        render={[Function]}
       />
     </div>
     <WithStyles(Fab)

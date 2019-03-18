@@ -11,6 +11,7 @@ const jikanjs = require('jikanjs');
 const styles = theme => ({
   root: {
     flexGrow: 1,
+    paddingTop: theme.spacing.unit,
   },
 });
 
@@ -41,6 +42,9 @@ class Search extends Component {
   loadMoreResults = (page) => new Promise(resolve => {
     let content = this.state.searchContent;
     jikanjs.search('anime', this.state.query).then((response) => {
+      if (Object.keys(response.results).length < 50) {
+        this.setState({ searchActive: false });
+      }; 
       const newPage = (
         response.results.map((obj) => (
           <AnimePreview 
