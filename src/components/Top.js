@@ -10,6 +10,7 @@ const jikanjs = require('jikanjs');
 const styles = theme => ({
   root: {
     flexGrow: 1,
+    paddingTop: theme.spacing.unit,
   },
 });
 

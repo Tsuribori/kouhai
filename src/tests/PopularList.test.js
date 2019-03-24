@@ -32,8 +32,8 @@ describe('PopularList test', () => {
       status: 200,
       response: data2,
     });
-    const tree = shallow(<PopularList />).dive();
-    expect(toJson(tree)).toMatchSnapshot();
+    const tree = shallow(<PopularList />).dive(); 
+    expect(toJson(tree)).toMatchSnapshot(); 
     await tree.instance().loadMorePopular(1);
     expect(toJson(tree)).toMatchSnapshot();
     await tree.instance().loadMorePopular(2);

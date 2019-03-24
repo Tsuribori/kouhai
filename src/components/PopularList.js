@@ -10,6 +10,7 @@ const jikanjs = require('jikanjs');
 const styles = theme => ({
   root: {
     flexGrow: 1,
+    paddingTop: theme.spacing.unit,
   },
 });
 
@@ -17,13 +18,17 @@ class PopularList extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      content: []
+      content: [],
+      moreContent: true,
     }
   }
 
   loadMorePopular = (page) => new Promise(resolve => {
     let content = this.state.content;
     jikanjs.loadTop('anime', page, 'airing').then((response) => {
+      if (Object.keys(response.top).length < 50) {
+        this.setState({ moreContent: false });
+      };
       const newPage = (
         response.top.map((obj) => (
           <AnimePreview
@@ -45,7 +50,7 @@ class PopularList extends Component {
       <InfiniteScroll
         loadMore={this.loadMorePopular}
         initialLoad={true}
-        hasMore={true}
+        hasMore={this.state.moreContent}
         loader={<Loading key='popularLoader' />}
       >
         <div className={this.props.classes.root}>
