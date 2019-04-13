@@ -39,7 +39,9 @@ exports[`AnimeDetail test Test AnimeDetail snapshot 1`] = `
   </WithStyles(Card)>
   <WithStyles(Paper)>
     <WithStyles(List)>
-      <WithStyles(ListItem)>
+      <WithStyles(ListItem)
+        key="score"
+      >
         <WithStyles(ListItemIcon)>
           <pure(StarRateIcon) />
         </WithStyles(ListItemIcon)>
@@ -48,7 +50,9 @@ exports[`AnimeDetail test Test AnimeDetail snapshot 1`] = `
           secondary="score"
         />
       </WithStyles(ListItem)>
-      <WithStyles(ListItem)>
+      <WithStyles(ListItem)
+        key="type"
+      >
         <WithStyles(ListItemIcon)>
           <pure(MovieIcon) />
         </WithStyles(ListItemIcon)>
@@ -57,7 +61,9 @@ exports[`AnimeDetail test Test AnimeDetail snapshot 1`] = `
           secondary="type"
         />
       </WithStyles(ListItem)>
-      <WithStyles(ListItem)>
+      <WithStyles(ListItem)
+        key="episodes"
+      >
         <WithStyles(ListItemIcon)>
           <pure(LiveTvIcon) />
         </WithStyles(ListItemIcon)>
@@ -66,7 +72,9 @@ exports[`AnimeDetail test Test AnimeDetail snapshot 1`] = `
           secondary="episodes"
         />
       </WithStyles(ListItem)>
-      <WithStyles(ListItem)>
+      <WithStyles(ListItem)
+        key="status"
+      >
         <WithStyles(ListItemIcon)>
           <pure(TvIcon) />
         </WithStyles(ListItemIcon)>
@@ -75,13 +83,37 @@ exports[`AnimeDetail test Test AnimeDetail snapshot 1`] = `
           secondary="status"
         />
       </WithStyles(ListItem)>
-      <WithStyles(ListItem)>
+      <WithStyles(ListItem)
+        key="aired"
+      >
+        <WithStyles(ListItemIcon)>
+          <pure(DateRangeIcon) />
+        </WithStyles(ListItemIcon)>
+        <WithStyles(ListItemText)
+          primary="1998/04/03 - 1999/04/24"
+          secondary="aired"
+        />
+      </WithStyles(ListItem)>
+      <WithStyles(ListItem)
+        key="broadcast"
+      >
         <WithStyles(ListItemIcon)>
           <pure(AccessTimeIcon) />
         </WithStyles(ListItemIcon)>
         <WithStyles(ListItemText)
           primary="Saturdays at 01:00 (JST)"
           secondary="broadcast"
+        />
+      </WithStyles(ListItem)>
+      <WithStyles(ListItem)
+        key="studio"
+      >
+        <WithStyles(ListItemIcon)>
+          <pure(BusinessIcon) />
+        </WithStyles(ListItemIcon)>
+        <WithStyles(ListItemText)
+          primary="Sunrise"
+          secondary="studio"
         />
       </WithStyles(ListItem)>
       <WithStyles(ListItem)
@@ -94,6 +126,20 @@ exports[`AnimeDetail test Test AnimeDetail snapshot 1`] = `
           primary="In the year 2071, humanity has colonized several of the planets and moons of the solar system leaving the now uninhabitable surface of planet Earth behind. The Inter Solar System Police attempts to keep peace in the galaxy, aided in part by outlaw bounty hunters, referred to as \\"Cowboys.\\" The ragtag team aboard the spaceship Bebop are two such individuals. Mellow and carefree Spike Spiegel is balanced by his boisterous, pragmatic partner Jet Black as the pair makes a living chasing bounties and collecting rewards. Thrown off course by the addition of new members that they meet in their travels—Ein, a genetically engineered, highly intelligent Welsh Corgi; femme fatale Faye Valentine, an enigmatic trickster with memory loss; and the strange computer whiz kid Edward Wong—the crew embarks on thrilling adventures that unravel each member's dark and mysterious past little by little. Well-balanced with high density action and light-hearted comedy, Cowboy Bebop is a space Western classic and an homage to the smooth and improvised music it is named after. [Written by MAL Rewrite]"
           secondary="synopsis"
         />
+      </WithStyles(ListItem)>
+      <WithStyles(ListItem)>
+        <WithStyles(ListItemIcon)>
+          <pure(PlayArrowIcon) />
+        </WithStyles(ListItemIcon)>
+        <WithStyles(ListItemText)>
+          <WithStyles(Link)
+            href="https://www.youtube.com/embed/qig4KOK2R2g?enablejsapi=1&wmode=opaque&autoplay=1"
+            rel="noreferrer"
+            target="_blank"
+          >
+            View trailer
+          </WithStyles(Link)>
+        </WithStyles(ListItemText)>
       </WithStyles(ListItem)>
       <WithStyles(ListItem)>
         <WithStyles(ListItemIcon)>

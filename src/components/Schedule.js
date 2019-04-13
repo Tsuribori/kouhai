@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import DocumentTitle from 'react-document-title';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import { Grid, Typography, Divider } from '@material-ui/core';
@@ -64,7 +65,11 @@ class Schedule extends Component {
   });
 
   render() {
-    return this.state.content;
+    return (
+      <DocumentTitle title='Schedule'>
+        {this.state.content}
+      </DocumentTitle>
+    );
   }
 }
 

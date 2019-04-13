@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import DocumentTitle from 'react-document-title';
 import PropTypes from 'prop-types';
 import scroll from 'react-scroll';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
@@ -73,61 +74,63 @@ class App extends Component {
       }
     ];
     return (
-      <Router>
-        <CssBaseline>
-          <div>
-            <AppBar position="static">
-              <Toolbar>
-                <IconButton
-                  color="inherit"
-                  onClick={this.handleMenu}
-                >
-                  <MenuIcon />
-                </IconButton>
-                <Menu
-                  anchorEl={anchorEl}
-                  open={open}
-                  onClose={this.handleClose}
-                >
-                  {paths.map((path) => (
-                    <MenuItem 
-                      key={path.url}
-                      component={Link} 
-                      to={path.url}
-                      onClick={this.handleClose}
-                    >
-                      {path.name}
-                    </MenuItem>
-                  ))};
-                </Menu>
-                {!this.state.searchPage &&
-                <div className={classes.search}>
+      <DocumentTitle title='Kouhai'>
+        <Router>
+          <CssBaseline>
+            <div>
+              <AppBar position="static">
+                <Toolbar>
                   <IconButton
-                    component={Link}
-                    to="/search"
                     color="inherit"
+                    onClick={this.handleMenu}
                   >
-                    <SearchIcon />
+                    <MenuIcon />
                   </IconButton>
-                </div>
-                }
-              </Toolbar>
-            </AppBar>
-          </div>
-          <div>
-            <Route exact path="/" component={PopularList} />
-            <Route path="/anime/:mal_id(\d*)" component={Detail} />
-            <Route path="/top" component={Top} />
-            <Route exact path="/schedule" component={Schedule} />
-            <Route exact path="/search" 
-              render={(props) => <Search {...props} handleHide={this.handleIconHide}/>}
-            />
-          </div>
-          <Fab onClick={this.handleClick} className={classes.fab} color="primary">
-            <ArrowUpward />
-          </Fab>
-        </CssBaseline>
-      </Router>
+                  <Menu
+                    anchorEl={anchorEl}
+                    open={open}
+                    onClose={this.handleClose}
+                  >
+                    {paths.map((path) => (
+                      <MenuItem 
+                        key={path.url}
+                        component={Link} 
+                        to={path.url}
+                        onClick={this.handleClose}
+                      >
+                        {path.name}
+                      </MenuItem>
+                    ))};
+                  </Menu>
+                  {!this.state.searchPage &&
+                  <div className={classes.search}>
+                    <IconButton
+                      component={Link}
+                      to="/search"
+                      color="inherit"
+                    >
+                      <SearchIcon />
+                    </IconButton>
+                  </div>
+                  }
+                </Toolbar>
+              </AppBar>
+            </div>
+            <div>
+              <Route exact path="/" component={PopularList} />
+              <Route path="/anime/:mal_id(\d*)" component={Detail} />
+              <Route path="/top" component={Top} />
+              <Route exact path="/schedule" component={Schedule} />
+              <Route exact path="/search" 
+                render={(props) => <Search {...props} handleHide={this.handleIconHide}/>}
+              />
+            </div>
+            <Fab onClick={this.handleClick} className={classes.fab} color="primary">
+              <ArrowUpward />
+            </Fab>
+          </CssBaseline>
+        </Router>
+      </DocumentTitle>
     );
   }
 }

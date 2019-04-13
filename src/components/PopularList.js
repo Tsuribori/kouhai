@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import DocumentTitle from 'react-document-title';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import { Grid } from '@material-ui/core';
@@ -47,21 +48,23 @@ class PopularList extends Component {
  
   render() {
     return (
-      <InfiniteScroll
-        loadMore={this.loadMorePopular}
-        initialLoad={true}
-        hasMore={this.state.moreContent}
-        loader={<Loading key='popularLoader' />}
-      >
-        <div className={this.props.classes.root}>
-          <Grid container
-            spacing={8}
-            justify="center"
-          >
-            {this.state.content}
-          </Grid>
-        </div>
-      </InfiniteScroll>
+      <DocumentTitle title='Popular'>
+        <InfiniteScroll
+          loadMore={this.loadMorePopular}
+          initialLoad={true}
+          hasMore={this.state.moreContent}
+          loader={<Loading key='popularLoader' />}
+        >
+          <div className={this.props.classes.root}>
+            <Grid container
+              spacing={8}
+              justify="center"
+            >
+              {this.state.content}
+            </Grid>
+          </div>
+        </InfiniteScroll>
+      </DocumentTitle>
     );
   }
 }

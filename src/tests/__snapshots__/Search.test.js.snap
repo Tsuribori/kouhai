@@ -1,420 +1,432 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Search test Test Search snapshot 1`] = `
-<div>
-  <WithStyles(SearchBar)
-    onChange={[Function]}
-    onRequestSearch={[Function]}
-  />
-  <InfiniteScroll
-    element="div"
-    getScrollParent={null}
-    hasMore={false}
-    initialLoad={true}
-    isReverse={false}
-    loadMore={[Function]}
-    loader={<WithStyles(Loading) />}
-    pageStart={0}
-    ref={null}
-    threshold={250}
-    useCapture={false}
-    useWindow={true}
-  >
-    <div
-      className="Search-root-1"
+<SideEffect(DocumentTitle)
+  title="Search"
+>
+  <div>
+    <WithStyles(SearchBar)
+      onChange={[Function]}
+      onRequestSearch={[Function]}
+    />
+    <InfiniteScroll
+      element="div"
+      getScrollParent={null}
+      hasMore={false}
+      initialLoad={true}
+      isReverse={false}
+      loadMore={[Function]}
+      loader={<WithStyles(Loading) />}
+      pageStart={0}
+      ref={null}
+      threshold={250}
+      useCapture={false}
+      useWindow={true}
     >
-      <WithStyles(Grid)
-        container={true}
-        justify="center"
-        spacing={8}
-      />
-    </div>
-  </InfiniteScroll>
-</div>
+      <div
+        className="Search-root-1"
+      >
+        <WithStyles(Grid)
+          container={true}
+          justify="center"
+          spacing={8}
+        />
+      </div>
+    </InfiniteScroll>
+  </div>
+</SideEffect(DocumentTitle)>
 `;
 
 exports[`Search test Test Search snapshot 2`] = `
-<div>
-  <WithStyles(SearchBar)
-    onChange={[Function]}
-    onRequestSearch={[Function]}
-  />
-  <InfiniteScroll
-    element="div"
-    getScrollParent={null}
-    hasMore={false}
-    initialLoad={true}
-    isReverse={false}
-    loadMore={[Function]}
-    loader={<WithStyles(Loading) />}
-    pageStart={0}
-    ref={null}
-    threshold={250}
-    useCapture={false}
-    useWindow={true}
-  >
-    <div
-      className="Search-root-1"
+<SideEffect(DocumentTitle)
+  title="Search"
+>
+  <div>
+    <WithStyles(SearchBar)
+      onChange={[Function]}
+      onRequestSearch={[Function]}
+    />
+    <InfiniteScroll
+      element="div"
+      getScrollParent={null}
+      hasMore={false}
+      initialLoad={true}
+      isReverse={false}
+      loadMore={[Function]}
+      loader={<WithStyles(Loading) />}
+      pageStart={0}
+      ref={null}
+      threshold={250}
+      useCapture={false}
+      useWindow={true}
     >
-      <WithStyles(Grid)
-        container={true}
-        justify="center"
-        spacing={8}
+      <div
+        className="Search-root-1"
       >
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/3/52675.jpg?s=e0121ee07b2b86ae6fde9c7f35278a6b"
-          key="1210"
-          mal_id={1210}
-          title="NHK ni Youkoso!"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/10/59271.jpg?s=b33169eef93b6fe21b65819e739cd8e8"
-          key="22509"
-          mal_id={22509}
-          title="Manga Nihonshi (NHK Han)"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/4/72267.jpg?s=57ff9e28ed0ec95a1d3beb777ee3479d"
-          key="30202"
-          mal_id={30202}
-          title="Bucket no Ana"
-        />
-      </WithStyles(Grid)>
-    </div>
-  </InfiniteScroll>
-</div>
+        <WithStyles(Grid)
+          container={true}
+          justify="center"
+          spacing={8}
+        >
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/3/52675.jpg?s=e0121ee07b2b86ae6fde9c7f35278a6b"
+            key="1210"
+            mal_id={1210}
+            title="NHK ni Youkoso!"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/10/59271.jpg?s=b33169eef93b6fe21b65819e739cd8e8"
+            key="22509"
+            mal_id={22509}
+            title="Manga Nihonshi (NHK Han)"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/4/72267.jpg?s=57ff9e28ed0ec95a1d3beb777ee3479d"
+            key="30202"
+            mal_id={30202}
+            title="Bucket no Ana"
+          />
+        </WithStyles(Grid)>
+      </div>
+    </InfiniteScroll>
+  </div>
+</SideEffect(DocumentTitle)>
 `;
 
 exports[`Search test Test Search snapshot 3`] = `
-<div>
-  <WithStyles(SearchBar)
-    onChange={[Function]}
-    onRequestSearch={[Function]}
-  />
-  <InfiniteScroll
-    element="div"
-    getScrollParent={null}
-    hasMore={true}
-    initialLoad={true}
-    isReverse={false}
-    loadMore={[Function]}
-    loader={<WithStyles(Loading) />}
-    pageStart={0}
-    ref={null}
-    threshold={250}
-    useCapture={false}
-    useWindow={true}
-  >
-    <div
-      className="Search-root-1"
+<SideEffect(DocumentTitle)
+  title="Search"
+>
+  <div>
+    <WithStyles(SearchBar)
+      onChange={[Function]}
+      onRequestSearch={[Function]}
+    />
+    <InfiniteScroll
+      element="div"
+      getScrollParent={null}
+      hasMore={true}
+      initialLoad={true}
+      isReverse={false}
+      loadMore={[Function]}
+      loader={<WithStyles(Loading) />}
+      pageStart={0}
+      ref={null}
+      threshold={250}
+      useCapture={false}
+      useWindow={true}
     >
-      <WithStyles(Grid)
-        container={true}
-        justify="center"
-        spacing={8}
+      <div
+        className="Search-root-1"
       >
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/4/19644.jpg?s=bb1e96eb0a0224a57aa45443eab92575"
-          key="1"
-          mal_id={1}
-          title="Cowboy Bebop"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/1439/93480.jpg?s=217164eb9dcb906162f44881547dd22b"
-          key="5"
-          mal_id={5}
-          title="Cowboy Bebop: Tengoku no Tobira"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/10/54341.jpg?s=708eacbb267db10ba6f54be159a1a918"
-          key="4037"
-          mal_id={4037}
-          title="Cowboy Bebop: Yose Atsume Blues"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/4/45947.jpg?s=d927f6e686157b1b6e7e63b5b36a425c"
-          key="17205"
-          mal_id={17205}
-          title="Cowboy Bebop: Ein no Natsuyasumi"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/3/87816.jpg?s=66af4451e0e08bc952a19524bb4cc5d2"
-          key="36392"
-          mal_id={36392}
-          title="Waga Na wa Cowboy"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/7/87778.jpg?s=7c5cf5e143f85c2c04cfde1bd973aebe"
-          key="36357"
-          mal_id={36357}
-          title="Chibikko Cowboy"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/11/54387.jpg?s=2badcf6d420dfb983f60a15df67adf36"
-          key="4597"
-          mal_id={4597}
-          title="Kouya no Shounen Isamu"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/11/85061.jpg?s=cefab78d7c9d2df09fb9b009b0e5271c"
-          key="30886"
-          mal_id={30886}
-          title="Mu Di"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/6/26018.jpg?s=9a921bd1690c98863a882a8692759b48"
-          key="977"
-          mal_id={977}
-          title="Ginga Teikoku no Metsubou Gaiden: Aoki Ookami-tachi no Densetsu"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/9/13330.jpg?s=76802ea63db3616439e32f1b2880483f"
-          key="6096"
-          mal_id={6096}
-          title="Bad Boys"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/9/85022.jpg?s=e6f50b538232c8588a8b68fa4d00bfe0"
-          key="34501"
-          mal_id={34501}
-          title="Kenka Banchou Otome: Girl Beats Boys"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/1/2413.jpg?s=10b7bcad1552850f4b675226f4b0d31c"
-          key="2220"
-          mal_id={2220}
-          title="Be-Boy Kidnapp'n Idol"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/10/47465.jpg?s=5095955ce1c6be1210d7818c4a5079c6"
-          key="17823"
-          mal_id={17823}
-          title="Ikenai Boy"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/3/35473.jpg?s=3acdbf4a68d38a45ae74c9eb6fff61fc"
-          key="3456"
-          mal_id={3456}
-          title="Candy☆Boy: Side Story For Archive"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/10/35525.jpg?s=d95e37c39861a227941fc253c03deb71"
-          key="5116"
-          mal_id={5116}
-          title="Candy Boy Episode: EX01 - Mirai Yohouzu"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/4/12176.jpg?s=4dee44a7c7b030d43c689785b9ed76a7"
-          key="5810"
-          mal_id={5810}
-          title="Sakuran Boy DT"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/9/7830.jpg?s=a41db8dbecc4685c610cf69de11fac14"
-          key="4211"
-          mal_id={4211}
-          title="Hareluya II Boy"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/3/46389.jpg?s=ef10940d4403b5416023579d67038ecf"
-          key="3689"
-          mal_id={3689}
-          title="Hatsumei Boy Kanipan"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/4/14762.jpg?s=8687c580b692e0c6b8194c5133efbe45"
-          key="6479"
-          mal_id={6479}
-          title="Candy Boy Episode: EX02 - Shiawase Kyouyuu Riron"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/1569/90777.jpg?s=4ae20aa5edc585e98ee374fedf8482be"
-          key="37385"
-          mal_id={37385}
-          title="Tough Boy"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/11/85082.jpg?s=ce1da1312381fe7282771ab4d2addc2b"
-          key="35328"
-          mal_id={35328}
-          title="BOY's LOVE Nitro+CHiRAL"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/10/13663.jpg?s=ddbf9de66f8d244613d6271b7e49d7b1"
-          key="4535"
-          mal_id={4535}
-          title="Candy Boy: Nonchalant Talk of the Certain Twin Sisters in Daily Life"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/6/28019.jpg?s=c2c69769730b35ffcabc40b0c473a50e"
-          key="3690"
-          mal_id={3690}
-          title="Chou Hatsumei Boy Kanipan"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/11/86055.jpg?s=ba07a35f78760f9c7f9e3a06b120a75e"
-          key="8799"
-          mal_id={8799}
-          title="Okawari-Boy Starzan-S"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/9/72697.jpg?s=4752a62572e2172fe039d10d7163a125"
-          key="6114"
-          mal_id={6114}
-          title="Rainbow: Nisha Rokubou no Shichinin"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/1/2223.jpg?s=d73b33278497f673fa9069c5de232fe9"
-          key="105"
-          mal_id={105}
-          title="Boys Be..."
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/9/50035.jpg?s=8150a75a534478709ffad2a417f4091b"
-          key="1383"
-          mal_id={1383}
-          title="Yuuwaku Countdown"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/9/41467.jpg?s=54d7d9b4731929bc616606304cee6b99"
-          key="3889"
-          mal_id={3889}
-          title="Junk Boy"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/1401/99387.jpg?s=a1a7da1ed0e1a3d1b5ff6a05dcffe8d8"
-          key="39363"
-          mal_id={39363}
-          title="Astro Boy: Tetsuwan Atom - 10-man Kounen no Raihousha - IGZA"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/4/49765.jpg?s=72b0c326a037861d8b7b9e8cc8429f40"
-          key="18637"
-          mal_id={18637}
-          title="Tetsuwan Atom: Ivan no Wakusei - Robot to Ningen no Yuujou"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/9/29332.jpg?s=87d81788c51119f8fb2e23f8948c56d5"
-          key="10653"
-          mal_id={10653}
-          title="Running Boy: Star Soldier no Himitsu"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/1370/99382.jpg?s=215f05baf5ed5c69fb54bd5235439218"
-          key="39362"
-          mal_id={39362}
-          title="Astro Boy: Tetsuwan Atom - Getsumen Kichi - Kieta Robot no Nazo"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/2/71833.jpg?s=6dc7e8211b408c43fc81b5b0e43f86f5"
-          key="29944"
-          mal_id={29944}
-          title="Kuchao"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/3/62867.jpg?s=1fc891d40870585d7957121152b79da1"
-          key="268"
-          mal_id={268}
-          title="Golden Boy"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/10/79582.jpg?s=21ae5acc464fee2017497ddae082d773"
-          key="2747"
-          mal_id={2747}
-          title="Tetsuwan Atom"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/11/73540.jpg?s=3f019915d806bbdad788de6dd8a23e3c"
-          key="28805"
-          mal_id={28805}
-          title="Bakemono no Ko"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/3/79335.jpg?s=d5cd285434cbc487cad8cb5db6d3f2ab"
-          key="292"
-          mal_id={292}
-          title="Dear Boys"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/5/77840.jpg?s=c2cf8ddc22037a024c4cc80a194a3e13"
-          key="31540"
-          mal_id={31540}
-          title="Sekkou Boys"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/9/8805.jpg?s=fdfdd362e50e7af869a92a8f3bb6664b"
-          key="4608"
-          mal_id={4608}
-          title="Yuuwaku Countdown: Akira"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/6/81513.jpg?s=5990209a5890b41ca798ae3ed46b6017"
-          key="33855"
-          mal_id={33855}
-          title="Show By Rock!! x Joysound"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/2/75540.jpg?s=d62a8e1a85ab86e7c9410630c6598cbc"
-          key="1581"
-          mal_id={1581}
-          title="Gift: Eternal Rainbow"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/13/83907.jpg?s=bec72358b666e0475dd6c215dbffb779"
-          key="4439"
-          mal_id={4439}
-          title="Kurenai Sanshirou"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/1611/94026.jpg?s=ad6fc28967eea89319908ba96be4ebed"
-          key="971"
-          mal_id={971}
-          title="Astro Boy: Tetsuwan Atom"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/7/80360.jpg?s=3f04c1333b9fd434fbb0d99d6a6dd8a4"
-          key="32483"
-          mal_id={32483}
-          title="Cheer Danshi!!"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/2/67065.jpg?s=c83dee5bdb36f1e0af06b8c004ff5f60"
-          key="7230"
-          mal_id={7230}
-          title="Hoshi ni Negai wo: Cold Body + Warm Heart"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/5/79707.jpg?s=b1514ca1c9ee5f289530207198ae9d3f"
-          key="30892"
-          mal_id={30892}
-          title="Boo Boo Boy"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/5/27052.jpg?s=a4a3d7868cf505062ffb324b8408dfa4"
-          key="757"
-          mal_id={757}
-          title="Kaze wo Mita Shounen"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/11/21278.jpg?s=8aa9123b5713c036df93dff6e7af2482"
-          key="565"
-          mal_id={565}
-          title="Steamboy"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/4/2557.jpg?s=0d0be7552fb6245bd3e86fc4e59da096"
-          key="2311"
-          mal_id={2311}
-          title="Shounen Kenya"
-        />
-        <WithStyles(AnimePreview)
-          image_url="https://cdn.myanimelist.net/images/anime/4/60329.jpg?s=43568c00031f9cb3ab97adc046f4bfb7"
-          key="23351"
-          mal_id={23351}
-          title="Youkaiden Nekome Kozou"
-        />
-      </WithStyles(Grid)>
-    </div>
-  </InfiniteScroll>
-</div>
+        <WithStyles(Grid)
+          container={true}
+          justify="center"
+          spacing={8}
+        >
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/4/19644.jpg?s=bb1e96eb0a0224a57aa45443eab92575"
+            key="1"
+            mal_id={1}
+            title="Cowboy Bebop"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/1439/93480.jpg?s=217164eb9dcb906162f44881547dd22b"
+            key="5"
+            mal_id={5}
+            title="Cowboy Bebop: Tengoku no Tobira"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/10/54341.jpg?s=708eacbb267db10ba6f54be159a1a918"
+            key="4037"
+            mal_id={4037}
+            title="Cowboy Bebop: Yose Atsume Blues"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/4/45947.jpg?s=d927f6e686157b1b6e7e63b5b36a425c"
+            key="17205"
+            mal_id={17205}
+            title="Cowboy Bebop: Ein no Natsuyasumi"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/3/87816.jpg?s=66af4451e0e08bc952a19524bb4cc5d2"
+            key="36392"
+            mal_id={36392}
+            title="Waga Na wa Cowboy"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/7/87778.jpg?s=7c5cf5e143f85c2c04cfde1bd973aebe"
+            key="36357"
+            mal_id={36357}
+            title="Chibikko Cowboy"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/11/54387.jpg?s=2badcf6d420dfb983f60a15df67adf36"
+            key="4597"
+            mal_id={4597}
+            title="Kouya no Shounen Isamu"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/11/85061.jpg?s=cefab78d7c9d2df09fb9b009b0e5271c"
+            key="30886"
+            mal_id={30886}
+            title="Mu Di"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/6/26018.jpg?s=9a921bd1690c98863a882a8692759b48"
+            key="977"
+            mal_id={977}
+            title="Ginga Teikoku no Metsubou Gaiden: Aoki Ookami-tachi no Densetsu"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/9/13330.jpg?s=76802ea63db3616439e32f1b2880483f"
+            key="6096"
+            mal_id={6096}
+            title="Bad Boys"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/9/85022.jpg?s=e6f50b538232c8588a8b68fa4d00bfe0"
+            key="34501"
+            mal_id={34501}
+            title="Kenka Banchou Otome: Girl Beats Boys"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/1/2413.jpg?s=10b7bcad1552850f4b675226f4b0d31c"
+            key="2220"
+            mal_id={2220}
+            title="Be-Boy Kidnapp'n Idol"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/10/47465.jpg?s=5095955ce1c6be1210d7818c4a5079c6"
+            key="17823"
+            mal_id={17823}
+            title="Ikenai Boy"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/3/35473.jpg?s=3acdbf4a68d38a45ae74c9eb6fff61fc"
+            key="3456"
+            mal_id={3456}
+            title="Candy☆Boy: Side Story For Archive"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/10/35525.jpg?s=d95e37c39861a227941fc253c03deb71"
+            key="5116"
+            mal_id={5116}
+            title="Candy Boy Episode: EX01 - Mirai Yohouzu"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/4/12176.jpg?s=4dee44a7c7b030d43c689785b9ed76a7"
+            key="5810"
+            mal_id={5810}
+            title="Sakuran Boy DT"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/9/7830.jpg?s=a41db8dbecc4685c610cf69de11fac14"
+            key="4211"
+            mal_id={4211}
+            title="Hareluya II Boy"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/3/46389.jpg?s=ef10940d4403b5416023579d67038ecf"
+            key="3689"
+            mal_id={3689}
+            title="Hatsumei Boy Kanipan"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/4/14762.jpg?s=8687c580b692e0c6b8194c5133efbe45"
+            key="6479"
+            mal_id={6479}
+            title="Candy Boy Episode: EX02 - Shiawase Kyouyuu Riron"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/1569/90777.jpg?s=4ae20aa5edc585e98ee374fedf8482be"
+            key="37385"
+            mal_id={37385}
+            title="Tough Boy"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/11/85082.jpg?s=ce1da1312381fe7282771ab4d2addc2b"
+            key="35328"
+            mal_id={35328}
+            title="BOY's LOVE Nitro+CHiRAL"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/10/13663.jpg?s=ddbf9de66f8d244613d6271b7e49d7b1"
+            key="4535"
+            mal_id={4535}
+            title="Candy Boy: Nonchalant Talk of the Certain Twin Sisters in Daily Life"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/6/28019.jpg?s=c2c69769730b35ffcabc40b0c473a50e"
+            key="3690"
+            mal_id={3690}
+            title="Chou Hatsumei Boy Kanipan"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/11/86055.jpg?s=ba07a35f78760f9c7f9e3a06b120a75e"
+            key="8799"
+            mal_id={8799}
+            title="Okawari-Boy Starzan-S"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/9/72697.jpg?s=4752a62572e2172fe039d10d7163a125"
+            key="6114"
+            mal_id={6114}
+            title="Rainbow: Nisha Rokubou no Shichinin"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/1/2223.jpg?s=d73b33278497f673fa9069c5de232fe9"
+            key="105"
+            mal_id={105}
+            title="Boys Be..."
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/9/50035.jpg?s=8150a75a534478709ffad2a417f4091b"
+            key="1383"
+            mal_id={1383}
+            title="Yuuwaku Countdown"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/9/41467.jpg?s=54d7d9b4731929bc616606304cee6b99"
+            key="3889"
+            mal_id={3889}
+            title="Junk Boy"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/1401/99387.jpg?s=a1a7da1ed0e1a3d1b5ff6a05dcffe8d8"
+            key="39363"
+            mal_id={39363}
+            title="Astro Boy: Tetsuwan Atom - 10-man Kounen no Raihousha - IGZA"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/4/49765.jpg?s=72b0c326a037861d8b7b9e8cc8429f40"
+            key="18637"
+            mal_id={18637}
+            title="Tetsuwan Atom: Ivan no Wakusei - Robot to Ningen no Yuujou"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/9/29332.jpg?s=87d81788c51119f8fb2e23f8948c56d5"
+            key="10653"
+            mal_id={10653}
+            title="Running Boy: Star Soldier no Himitsu"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/1370/99382.jpg?s=215f05baf5ed5c69fb54bd5235439218"
+            key="39362"
+            mal_id={39362}
+            title="Astro Boy: Tetsuwan Atom - Getsumen Kichi - Kieta Robot no Nazo"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/2/71833.jpg?s=6dc7e8211b408c43fc81b5b0e43f86f5"
+            key="29944"
+            mal_id={29944}
+            title="Kuchao"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/3/62867.jpg?s=1fc891d40870585d7957121152b79da1"
+            key="268"
+            mal_id={268}
+            title="Golden Boy"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/10/79582.jpg?s=21ae5acc464fee2017497ddae082d773"
+            key="2747"
+            mal_id={2747}
+            title="Tetsuwan Atom"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/11/73540.jpg?s=3f019915d806bbdad788de6dd8a23e3c"
+            key="28805"
+            mal_id={28805}
+            title="Bakemono no Ko"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/3/79335.jpg?s=d5cd285434cbc487cad8cb5db6d3f2ab"
+            key="292"
+            mal_id={292}
+            title="Dear Boys"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/5/77840.jpg?s=c2cf8ddc22037a024c4cc80a194a3e13"
+            key="31540"
+            mal_id={31540}
+            title="Sekkou Boys"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/9/8805.jpg?s=fdfdd362e50e7af869a92a8f3bb6664b"
+            key="4608"
+            mal_id={4608}
+            title="Yuuwaku Countdown: Akira"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/6/81513.jpg?s=5990209a5890b41ca798ae3ed46b6017"
+            key="33855"
+            mal_id={33855}
+            title="Show By Rock!! x Joysound"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/2/75540.jpg?s=d62a8e1a85ab86e7c9410630c6598cbc"
+            key="1581"
+            mal_id={1581}
+            title="Gift: Eternal Rainbow"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/13/83907.jpg?s=bec72358b666e0475dd6c215dbffb779"
+            key="4439"
+            mal_id={4439}
+            title="Kurenai Sanshirou"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/1611/94026.jpg?s=ad6fc28967eea89319908ba96be4ebed"
+            key="971"
+            mal_id={971}
+            title="Astro Boy: Tetsuwan Atom"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/7/80360.jpg?s=3f04c1333b9fd434fbb0d99d6a6dd8a4"
+            key="32483"
+            mal_id={32483}
+            title="Cheer Danshi!!"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/2/67065.jpg?s=c83dee5bdb36f1e0af06b8c004ff5f60"
+            key="7230"
+            mal_id={7230}
+            title="Hoshi ni Negai wo: Cold Body + Warm Heart"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/5/79707.jpg?s=b1514ca1c9ee5f289530207198ae9d3f"
+            key="30892"
+            mal_id={30892}
+            title="Boo Boo Boy"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/5/27052.jpg?s=a4a3d7868cf505062ffb324b8408dfa4"
+            key="757"
+            mal_id={757}
+            title="Kaze wo Mita Shounen"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/11/21278.jpg?s=8aa9123b5713c036df93dff6e7af2482"
+            key="565"
+            mal_id={565}
+            title="Steamboy"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/4/2557.jpg?s=0d0be7552fb6245bd3e86fc4e59da096"
+            key="2311"
+            mal_id={2311}
+            title="Shounen Kenya"
+          />
+          <WithStyles(AnimePreview)
+            image_url="https://cdn.myanimelist.net/images/anime/4/60329.jpg?s=43568c00031f9cb3ab97adc046f4bfb7"
+            key="23351"
+            mal_id={23351}
+            title="Youkaiden Nekome Kozou"
+          />
+        </WithStyles(Grid)>
+      </div>
+    </InfiniteScroll>
+  </div>
+</SideEffect(DocumentTitle)>
 `;

@@ -1,286 +1,298 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`App test Test App snapshot 1`] = `
-<BrowserRouter>
-  <WithStyles(CssBaseline)>
-    <div>
-      <WithStyles(AppBar)
-        position="static"
-      >
-        <WithStyles(Toolbar)>
-          <WithStyles(IconButton)
-            color="inherit"
-            onClick={[Function]}
-          >
-            <pure(MenuIcon) />
-          </WithStyles(IconButton)>
-          <WithStyles(Menu)
-            anchorEl={null}
-            onClose={[Function]}
-            open={false}
-          >
-            <WithStyles(MenuItem)
-              component={[Function]}
-              key="/"
-              onClick={[Function]}
-              to="/"
-            >
-              Popular
-            </WithStyles(MenuItem)>
-            <WithStyles(MenuItem)
-              component={[Function]}
-              key="/top"
-              onClick={[Function]}
-              to="/top"
-            >
-              Top
-            </WithStyles(MenuItem)>
-            <WithStyles(MenuItem)
-              component={[Function]}
-              key="/schedule"
-              onClick={[Function]}
-              to="/schedule"
-            >
-              Schedule
-            </WithStyles(MenuItem)>
-            ;
-          </WithStyles(Menu)>
-          <div
-            className="App-search-192"
-          >
+<SideEffect(DocumentTitle)
+  title="Kouhai"
+>
+  <BrowserRouter>
+    <WithStyles(CssBaseline)>
+      <div>
+        <WithStyles(AppBar)
+          position="static"
+        >
+          <WithStyles(Toolbar)>
             <WithStyles(IconButton)
               color="inherit"
-              component={[Function]}
-              to="/search"
+              onClick={[Function]}
             >
-              <pure(SearchIcon) />
+              <pure(MenuIcon) />
             </WithStyles(IconButton)>
-          </div>
-        </WithStyles(Toolbar)>
-      </WithStyles(AppBar)>
-    </div>
-    <div>
-      <Route
-        component={[Function]}
-        exact={true}
-        path="/"
-      />
-      <Route
-        component={[Function]}
-        path="/anime/:mal_id(\\\\d*)"
-      />
-      <Route
-        component={[Function]}
-        path="/top"
-      />
-      <Route
-        component={[Function]}
-        exact={true}
-        path="/schedule"
-      />
-      <Route
-        exact={true}
-        path="/search"
-        render={[Function]}
-      />
-    </div>
-    <WithStyles(Fab)
-      className="App-fab-191"
-      color="primary"
-      onClick={[Function]}
-    >
-      <pure(ArrowUpwardIcon) />
-    </WithStyles(Fab)>
-  </WithStyles(CssBaseline)>
-</BrowserRouter>
+            <WithStyles(Menu)
+              anchorEl={null}
+              onClose={[Function]}
+              open={false}
+            >
+              <WithStyles(MenuItem)
+                component={[Function]}
+                key="/"
+                onClick={[Function]}
+                to="/"
+              >
+                Popular
+              </WithStyles(MenuItem)>
+              <WithStyles(MenuItem)
+                component={[Function]}
+                key="/top"
+                onClick={[Function]}
+                to="/top"
+              >
+                Top
+              </WithStyles(MenuItem)>
+              <WithStyles(MenuItem)
+                component={[Function]}
+                key="/schedule"
+                onClick={[Function]}
+                to="/schedule"
+              >
+                Schedule
+              </WithStyles(MenuItem)>
+              ;
+            </WithStyles(Menu)>
+            <div
+              className="App-search-192"
+            >
+              <WithStyles(IconButton)
+                color="inherit"
+                component={[Function]}
+                to="/search"
+              >
+                <pure(SearchIcon) />
+              </WithStyles(IconButton)>
+            </div>
+          </WithStyles(Toolbar)>
+        </WithStyles(AppBar)>
+      </div>
+      <div>
+        <Route
+          component={[Function]}
+          exact={true}
+          path="/"
+        />
+        <Route
+          component={[Function]}
+          path="/anime/:mal_id(\\\\d*)"
+        />
+        <Route
+          component={[Function]}
+          path="/top"
+        />
+        <Route
+          component={[Function]}
+          exact={true}
+          path="/schedule"
+        />
+        <Route
+          exact={true}
+          path="/search"
+          render={[Function]}
+        />
+      </div>
+      <WithStyles(Fab)
+        className="App-fab-191"
+        color="primary"
+        onClick={[Function]}
+      >
+        <pure(ArrowUpwardIcon) />
+      </WithStyles(Fab)>
+    </WithStyles(CssBaseline)>
+  </BrowserRouter>
+</SideEffect(DocumentTitle)>
 `;
 
 exports[`App test Test App snapshot 2`] = `
-<BrowserRouter>
-  <WithStyles(CssBaseline)>
-    <div>
-      <WithStyles(AppBar)
-        position="static"
-      >
-        <WithStyles(Toolbar)>
-          <WithStyles(IconButton)
-            color="inherit"
-            onClick={[Function]}
-          >
-            <pure(MenuIcon) />
-          </WithStyles(IconButton)>
-          <WithStyles(Menu)
-            anchorEl={<pure(MenuIcon) />}
-            onClose={[Function]}
-            open={true}
-          >
-            <WithStyles(MenuItem)
-              component={[Function]}
-              key="/"
-              onClick={[Function]}
-              to="/"
-            >
-              Popular
-            </WithStyles(MenuItem)>
-            <WithStyles(MenuItem)
-              component={[Function]}
-              key="/top"
-              onClick={[Function]}
-              to="/top"
-            >
-              Top
-            </WithStyles(MenuItem)>
-            <WithStyles(MenuItem)
-              component={[Function]}
-              key="/schedule"
-              onClick={[Function]}
-              to="/schedule"
-            >
-              Schedule
-            </WithStyles(MenuItem)>
-            ;
-          </WithStyles(Menu)>
-          <div
-            className="App-search-192"
-          >
+<SideEffect(DocumentTitle)
+  title="Kouhai"
+>
+  <BrowserRouter>
+    <WithStyles(CssBaseline)>
+      <div>
+        <WithStyles(AppBar)
+          position="static"
+        >
+          <WithStyles(Toolbar)>
             <WithStyles(IconButton)
               color="inherit"
-              component={[Function]}
-              to="/search"
+              onClick={[Function]}
             >
-              <pure(SearchIcon) />
+              <pure(MenuIcon) />
             </WithStyles(IconButton)>
-          </div>
-        </WithStyles(Toolbar)>
-      </WithStyles(AppBar)>
-    </div>
-    <div>
-      <Route
-        component={[Function]}
-        exact={true}
-        path="/"
-      />
-      <Route
-        component={[Function]}
-        path="/anime/:mal_id(\\\\d*)"
-      />
-      <Route
-        component={[Function]}
-        path="/top"
-      />
-      <Route
-        component={[Function]}
-        exact={true}
-        path="/schedule"
-      />
-      <Route
-        exact={true}
-        path="/search"
-        render={[Function]}
-      />
-    </div>
-    <WithStyles(Fab)
-      className="App-fab-191"
-      color="primary"
-      onClick={[Function]}
-    >
-      <pure(ArrowUpwardIcon) />
-    </WithStyles(Fab)>
-  </WithStyles(CssBaseline)>
-</BrowserRouter>
+            <WithStyles(Menu)
+              anchorEl={<pure(MenuIcon) />}
+              onClose={[Function]}
+              open={true}
+            >
+              <WithStyles(MenuItem)
+                component={[Function]}
+                key="/"
+                onClick={[Function]}
+                to="/"
+              >
+                Popular
+              </WithStyles(MenuItem)>
+              <WithStyles(MenuItem)
+                component={[Function]}
+                key="/top"
+                onClick={[Function]}
+                to="/top"
+              >
+                Top
+              </WithStyles(MenuItem)>
+              <WithStyles(MenuItem)
+                component={[Function]}
+                key="/schedule"
+                onClick={[Function]}
+                to="/schedule"
+              >
+                Schedule
+              </WithStyles(MenuItem)>
+              ;
+            </WithStyles(Menu)>
+            <div
+              className="App-search-192"
+            >
+              <WithStyles(IconButton)
+                color="inherit"
+                component={[Function]}
+                to="/search"
+              >
+                <pure(SearchIcon) />
+              </WithStyles(IconButton)>
+            </div>
+          </WithStyles(Toolbar)>
+        </WithStyles(AppBar)>
+      </div>
+      <div>
+        <Route
+          component={[Function]}
+          exact={true}
+          path="/"
+        />
+        <Route
+          component={[Function]}
+          path="/anime/:mal_id(\\\\d*)"
+        />
+        <Route
+          component={[Function]}
+          path="/top"
+        />
+        <Route
+          component={[Function]}
+          exact={true}
+          path="/schedule"
+        />
+        <Route
+          exact={true}
+          path="/search"
+          render={[Function]}
+        />
+      </div>
+      <WithStyles(Fab)
+        className="App-fab-191"
+        color="primary"
+        onClick={[Function]}
+      >
+        <pure(ArrowUpwardIcon) />
+      </WithStyles(Fab)>
+    </WithStyles(CssBaseline)>
+  </BrowserRouter>
+</SideEffect(DocumentTitle)>
 `;
 
 exports[`App test Test App snapshot 3`] = `
-<BrowserRouter>
-  <WithStyles(CssBaseline)>
-    <div>
-      <WithStyles(AppBar)
-        position="static"
-      >
-        <WithStyles(Toolbar)>
-          <WithStyles(IconButton)
-            color="inherit"
-            onClick={[Function]}
-          >
-            <pure(MenuIcon) />
-          </WithStyles(IconButton)>
-          <WithStyles(Menu)
-            anchorEl={null}
-            onClose={[Function]}
-            open={false}
-          >
-            <WithStyles(MenuItem)
-              component={[Function]}
-              key="/"
-              onClick={[Function]}
-              to="/"
-            >
-              Popular
-            </WithStyles(MenuItem)>
-            <WithStyles(MenuItem)
-              component={[Function]}
-              key="/top"
-              onClick={[Function]}
-              to="/top"
-            >
-              Top
-            </WithStyles(MenuItem)>
-            <WithStyles(MenuItem)
-              component={[Function]}
-              key="/schedule"
-              onClick={[Function]}
-              to="/schedule"
-            >
-              Schedule
-            </WithStyles(MenuItem)>
-            ;
-          </WithStyles(Menu)>
-          <div
-            className="App-search-192"
-          >
+<SideEffect(DocumentTitle)
+  title="Kouhai"
+>
+  <BrowserRouter>
+    <WithStyles(CssBaseline)>
+      <div>
+        <WithStyles(AppBar)
+          position="static"
+        >
+          <WithStyles(Toolbar)>
             <WithStyles(IconButton)
               color="inherit"
-              component={[Function]}
-              to="/search"
+              onClick={[Function]}
             >
-              <pure(SearchIcon) />
+              <pure(MenuIcon) />
             </WithStyles(IconButton)>
-          </div>
-        </WithStyles(Toolbar)>
-      </WithStyles(AppBar)>
-    </div>
-    <div>
-      <Route
-        component={[Function]}
-        exact={true}
-        path="/"
-      />
-      <Route
-        component={[Function]}
-        path="/anime/:mal_id(\\\\d*)"
-      />
-      <Route
-        component={[Function]}
-        path="/top"
-      />
-      <Route
-        component={[Function]}
-        exact={true}
-        path="/schedule"
-      />
-      <Route
-        exact={true}
-        path="/search"
-        render={[Function]}
-      />
-    </div>
-    <WithStyles(Fab)
-      className="App-fab-191"
-      color="primary"
-      onClick={[Function]}
-    >
-      <pure(ArrowUpwardIcon) />
-    </WithStyles(Fab)>
-  </WithStyles(CssBaseline)>
-</BrowserRouter>
+            <WithStyles(Menu)
+              anchorEl={null}
+              onClose={[Function]}
+              open={false}
+            >
+              <WithStyles(MenuItem)
+                component={[Function]}
+                key="/"
+                onClick={[Function]}
+                to="/"
+              >
+                Popular
+              </WithStyles(MenuItem)>
+              <WithStyles(MenuItem)
+                component={[Function]}
+                key="/top"
+                onClick={[Function]}
+                to="/top"
+              >
+                Top
+              </WithStyles(MenuItem)>
+              <WithStyles(MenuItem)
+                component={[Function]}
+                key="/schedule"
+                onClick={[Function]}
+                to="/schedule"
+              >
+                Schedule
+              </WithStyles(MenuItem)>
+              ;
+            </WithStyles(Menu)>
+            <div
+              className="App-search-192"
+            >
+              <WithStyles(IconButton)
+                color="inherit"
+                component={[Function]}
+                to="/search"
+              >
+                <pure(SearchIcon) />
+              </WithStyles(IconButton)>
+            </div>
+          </WithStyles(Toolbar)>
+        </WithStyles(AppBar)>
+      </div>
+      <div>
+        <Route
+          component={[Function]}
+          exact={true}
+          path="/"
+        />
+        <Route
+          component={[Function]}
+          path="/anime/:mal_id(\\\\d*)"
+        />
+        <Route
+          component={[Function]}
+          path="/top"
+        />
+        <Route
+          component={[Function]}
+          exact={true}
+          path="/schedule"
+        />
+        <Route
+          exact={true}
+          path="/search"
+          render={[Function]}
+        />
+      </div>
+      <WithStyles(Fab)
+        className="App-fab-191"
+        color="primary"
+        onClick={[Function]}
+      >
+        <pure(ArrowUpwardIcon) />
+      </WithStyles(Fab)>
+    </WithStyles(CssBaseline)>
+  </BrowserRouter>
+</SideEffect(DocumentTitle)>
 `;

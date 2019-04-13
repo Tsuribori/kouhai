@@ -1,199 +1,209 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Detail test Test Detail snapshot 1`] = `<WithStyles(Loading) />`;
+exports[`Detail test Test Detail snapshot 1`] = `
+<SideEffect(DocumentTitle)
+  title="Loading..."
+>
+  <WithStyles(Loading) />
+</SideEffect(DocumentTitle)>
+`;
 
 exports[`Detail test Test Detail snapshot 2`] = `
-<WithStyles(AnimeDetail)
-  aired={
-    Object {
-      "from": "1998-04-03T00:00:00+00:00",
-      "prop": Object {
-        "from": Object {
-          "day": 3,
-          "month": 4,
-          "year": 1998,
-        },
-        "to": Object {
-          "day": 24,
-          "month": 4,
-          "year": 1999,
-        },
-      },
-      "to": "1999-04-24T00:00:00+00:00",
-    }
-  }
-  aired_string="Apr 3, 1998 to Apr 24, 1999"
-  airing={false}
-  background="When Cowboy Bebop first aired in spring of 1998 on TV Tokyo, only episodes 2, 3, 7-15, and 18 were broadcast, it was concluded with a recap special known as Yose Atsume Blues. This was due to anime censorship having increased following the big controversies over Evangelion, as a result most of the series was pulled from the air due to violent content. Satellite channel WOWOW picked up the series in the fall of that year and aired it in its entirety uncensored. Cowboy Bebop was not a ratings hit in Japan, but sold over 19,000 DVD units in the initial release run, and 81,000 overall. Protagonist Spike Spiegel won Best Male Character, and Megumi Hayashibara won Best Voice Actor for her role as Faye Valentine in the 1999 and 2000 Anime Grand Prix, respectively.Cowboy Bebop's biggest influence has been in the United States, where it premiered on Adult Swim in 2001 with many reruns since. The show's heavy Western influence struck a chord with American viewers, where it became a \\"gateway drug\\" to anime aimed at adult audiences."
-  broadcast="Saturdays at 01:00 (JST)"
-  duration="24 min per ep"
-  ending_theme={
-    Array [
-      "\\"The Real Folk Blues\\" by The Seatbelts feat. Mai Yamane (eps 1-12, 14-25)",
-      "\\"Space Lion\\" by The Seatbelts (ep 13)",
-      "\\"Blue\\" by The Seatbelts feat. Mai Yamane (ep 26)",
-    ]
-  }
-  episodes={26}
-  favorites={42652}
-  genres={
-    Array [
-      Object {
-        "mal_id": 1,
-        "name": "Action",
-        "title": "Action",
-        "type": "anime",
-        "url": "https://myanimelist.net/anime/genre/1/Action",
-      },
-      Object {
-        "mal_id": 2,
-        "name": "Adventure",
-        "title": "Adventure",
-        "type": "anime",
-        "url": "https://myanimelist.net/anime/genre/2/Adventure",
-      },
-      Object {
-        "mal_id": 4,
-        "name": "Comedy",
-        "title": "Comedy",
-        "type": "anime",
-        "url": "https://myanimelist.net/anime/genre/4/Comedy",
-      },
-      Object {
-        "mal_id": 8,
-        "name": "Drama",
-        "title": "Drama",
-        "type": "anime",
-        "url": "https://myanimelist.net/anime/genre/8/Drama",
-      },
-      Object {
-        "mal_id": 24,
-        "name": "Sci-Fi",
-        "title": "Sci-Fi",
-        "type": "anime",
-        "url": "https://myanimelist.net/anime/genre/24/Sci-Fi",
-      },
-      Object {
-        "mal_id": 29,
-        "name": "Space",
-        "title": "Space",
-        "type": "anime",
-        "url": "https://myanimelist.net/anime/genre/29/Space",
-      },
-    ]
-  }
-  image_url="https://cdn.myanimelist.net/images/anime/4/19644.jpg"
-  key="1"
-  licensor={
-    Array [
-      Object {
-        "mal_id": 102,
-        "name": "Funimation",
-        "title": "Funimation",
-        "type": "anime",
-        "url": "https://myanimelist.net/anime/producer/102/Funimation",
-      },
-      Object {
-        "mal_id": 233,
-        "name": "Bandai Entertainment",
-        "title": "Bandai Entertainment",
-        "type": "anime",
-        "url": "https://myanimelist.net/anime/producer/233/Bandai_Entertainment",
-      },
-    ]
-  }
-  link_canonical="https://myanimelist.net/anime/1/Cowboy_Bebop"
-  mal_id={1}
-  members={779370}
-  opening_theme={
-    Array [
-      "\\"Tank!\\" by The Seatbelts (eps 1-25)",
-    ]
-  }
-  popularity={39}
-  premiered="Spring 1998"
-  producer={
-    Array [
-      Object {
-        "mal_id": 23,
-        "name": "Bandai Visual",
-        "title": "Bandai Visual",
-        "type": "anime",
-        "url": "https://myanimelist.net/anime/producer/23/Bandai_Visual",
-      },
-    ]
-  }
-  rank={26}
-  rating="R - 17+ (violence & profanity)"
-  related={
-    Object {
-      "Adaptation": Array [
-        Object {
-          "mal_id": 173,
-          "name": "Cowboy Bebop",
-          "title": "Cowboy Bebop",
-          "type": "manga",
-          "url": "https://myanimelist.net/manga/173/Cowboy_Bebop",
-        },
-        Object {
-          "mal_id": 174,
-          "name": "Shooting Star Bebop: Cowboy Bebop",
-          "title": "Shooting Star Bebop: Cowboy Bebop",
-          "type": "manga",
-          "url": "https://myanimelist.net/manga/174/Shooting_Star_Bebop__Cowboy_Bebop",
-        },
-      ],
-      "Side story": Array [
-        Object {
-          "mal_id": 5,
-          "name": "Cowboy Bebop: Tengoku no Tobira",
-          "title": "Cowboy Bebop: Tengoku no Tobira",
-          "type": "anime",
-          "url": "https://myanimelist.net/anime/5/Cowboy_Bebop__Tengoku_no_Tobira",
-        },
-        Object {
-          "mal_id": 17205,
-          "name": "Cowboy Bebop: Ein no Natsuyasumi",
-          "title": "Cowboy Bebop: Ein no Natsuyasumi",
-          "type": "anime",
-          "url": "https://myanimelist.net/anime/17205/Cowboy_Bebop__Ein_no_Natsuyasumi",
-        },
-      ],
-      "Summary": Array [
-        Object {
-          "mal_id": 4037,
-          "name": "Cowboy Bebop: Yose Atsume Blues",
-          "title": "Cowboy Bebop: Yose Atsume Blues",
-          "type": "anime",
-          "url": "https://myanimelist.net/anime/4037/Cowboy_Bebop__Yose_Atsume_Blues",
-        },
-      ],
-    }
-  }
-  request_cache_expiry={7558}
-  request_cached={true}
-  request_hash="request:anime:959d0b55079ce39e2b6576ef4fbbccdb6cbf6d49"
-  score={8.81}
-  scored_by={398416}
-  source="Original"
-  status="Finished Airing"
-  studio={
-    Array [
-      Object {
-        "mal_id": 14,
-        "name": "Sunrise",
-        "title": "Sunrise",
-        "type": "anime",
-        "url": "https://myanimelist.net/anime/producer/14/Sunrise",
-      },
-    ]
-  }
-  synopsis="In the year 2071, humanity has colonized several of the planets and moons of the solar system leaving the now uninhabitable surface of planet Earth behind. The Inter Solar System Police attempts to keep peace in the galaxy, aided in part by outlaw bounty hunters, referred to as \\"Cowboys.\\" The ragtag team aboard the spaceship Bebop are two such individuals. Mellow and carefree Spike Spiegel is balanced by his boisterous, pragmatic partner Jet Black as the pair makes a living chasing bounties and collecting rewards. Thrown off course by the addition of new members that they meet in their travels—Ein, a genetically engineered, highly intelligent Welsh Corgi; femme fatale Faye Valentine, an enigmatic trickster with memory loss; and the strange computer whiz kid Edward Wong—the crew embarks on thrilling adventures that unravel each member's dark and mysterious past little by little. Well-balanced with high density action and light-hearted comedy, Cowboy Bebop is a space Western classic and an homage to the smooth and improvised music it is named after. [Written by MAL Rewrite]"
+<SideEffect(DocumentTitle)
   title="Cowboy Bebop"
-  title_english="Cowboy Bebop"
-  title_japanese="カウボーイビバップ"
-  title_synonyms={null}
-  trailer_url="https://www.youtube.com/embed/qig4KOK2R2g?enablejsapi=1&wmode=opaque&autoplay=1"
-  type="TV"
-/>
+>
+  <WithStyles(AnimeDetail)
+    aired={
+      Object {
+        "from": "1998-04-03T00:00:00+00:00",
+        "prop": Object {
+          "from": Object {
+            "day": 3,
+            "month": 4,
+            "year": 1998,
+          },
+          "to": Object {
+            "day": 24,
+            "month": 4,
+            "year": 1999,
+          },
+        },
+        "to": "1999-04-24T00:00:00+00:00",
+      }
+    }
+    aired_string="Apr 3, 1998 to Apr 24, 1999"
+    airing={false}
+    background="When Cowboy Bebop first aired in spring of 1998 on TV Tokyo, only episodes 2, 3, 7-15, and 18 were broadcast, it was concluded with a recap special known as Yose Atsume Blues. This was due to anime censorship having increased following the big controversies over Evangelion, as a result most of the series was pulled from the air due to violent content. Satellite channel WOWOW picked up the series in the fall of that year and aired it in its entirety uncensored. Cowboy Bebop was not a ratings hit in Japan, but sold over 19,000 DVD units in the initial release run, and 81,000 overall. Protagonist Spike Spiegel won Best Male Character, and Megumi Hayashibara won Best Voice Actor for her role as Faye Valentine in the 1999 and 2000 Anime Grand Prix, respectively.Cowboy Bebop's biggest influence has been in the United States, where it premiered on Adult Swim in 2001 with many reruns since. The show's heavy Western influence struck a chord with American viewers, where it became a \\"gateway drug\\" to anime aimed at adult audiences."
+    broadcast="Saturdays at 01:00 (JST)"
+    duration="24 min per ep"
+    ending_theme={
+      Array [
+        "\\"The Real Folk Blues\\" by The Seatbelts feat. Mai Yamane (eps 1-12, 14-25)",
+        "\\"Space Lion\\" by The Seatbelts (ep 13)",
+        "\\"Blue\\" by The Seatbelts feat. Mai Yamane (ep 26)",
+      ]
+    }
+    episodes={26}
+    favorites={42652}
+    genres={
+      Array [
+        Object {
+          "mal_id": 1,
+          "name": "Action",
+          "title": "Action",
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/genre/1/Action",
+        },
+        Object {
+          "mal_id": 2,
+          "name": "Adventure",
+          "title": "Adventure",
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/genre/2/Adventure",
+        },
+        Object {
+          "mal_id": 4,
+          "name": "Comedy",
+          "title": "Comedy",
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/genre/4/Comedy",
+        },
+        Object {
+          "mal_id": 8,
+          "name": "Drama",
+          "title": "Drama",
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/genre/8/Drama",
+        },
+        Object {
+          "mal_id": 24,
+          "name": "Sci-Fi",
+          "title": "Sci-Fi",
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/genre/24/Sci-Fi",
+        },
+        Object {
+          "mal_id": 29,
+          "name": "Space",
+          "title": "Space",
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/genre/29/Space",
+        },
+      ]
+    }
+    image_url="https://cdn.myanimelist.net/images/anime/4/19644.jpg"
+    key="1"
+    licensor={
+      Array [
+        Object {
+          "mal_id": 102,
+          "name": "Funimation",
+          "title": "Funimation",
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/producer/102/Funimation",
+        },
+        Object {
+          "mal_id": 233,
+          "name": "Bandai Entertainment",
+          "title": "Bandai Entertainment",
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/producer/233/Bandai_Entertainment",
+        },
+      ]
+    }
+    link_canonical="https://myanimelist.net/anime/1/Cowboy_Bebop"
+    mal_id={1}
+    members={779370}
+    opening_theme={
+      Array [
+        "\\"Tank!\\" by The Seatbelts (eps 1-25)",
+      ]
+    }
+    popularity={39}
+    premiered="Spring 1998"
+    producer={
+      Array [
+        Object {
+          "mal_id": 23,
+          "name": "Bandai Visual",
+          "title": "Bandai Visual",
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/producer/23/Bandai_Visual",
+        },
+      ]
+    }
+    rank={26}
+    rating="R - 17+ (violence & profanity)"
+    related={
+      Object {
+        "Adaptation": Array [
+          Object {
+            "mal_id": 173,
+            "name": "Cowboy Bebop",
+            "title": "Cowboy Bebop",
+            "type": "manga",
+            "url": "https://myanimelist.net/manga/173/Cowboy_Bebop",
+          },
+          Object {
+            "mal_id": 174,
+            "name": "Shooting Star Bebop: Cowboy Bebop",
+            "title": "Shooting Star Bebop: Cowboy Bebop",
+            "type": "manga",
+            "url": "https://myanimelist.net/manga/174/Shooting_Star_Bebop__Cowboy_Bebop",
+          },
+        ],
+        "Side story": Array [
+          Object {
+            "mal_id": 5,
+            "name": "Cowboy Bebop: Tengoku no Tobira",
+            "title": "Cowboy Bebop: Tengoku no Tobira",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/5/Cowboy_Bebop__Tengoku_no_Tobira",
+          },
+          Object {
+            "mal_id": 17205,
+            "name": "Cowboy Bebop: Ein no Natsuyasumi",
+            "title": "Cowboy Bebop: Ein no Natsuyasumi",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/17205/Cowboy_Bebop__Ein_no_Natsuyasumi",
+          },
+        ],
+        "Summary": Array [
+          Object {
+            "mal_id": 4037,
+            "name": "Cowboy Bebop: Yose Atsume Blues",
+            "title": "Cowboy Bebop: Yose Atsume Blues",
+            "type": "anime",
+            "url": "https://myanimelist.net/anime/4037/Cowboy_Bebop__Yose_Atsume_Blues",
+          },
+        ],
+      }
+    }
+    request_cache_expiry={7558}
+    request_cached={true}
+    request_hash="request:anime:959d0b55079ce39e2b6576ef4fbbccdb6cbf6d49"
+    score={8.81}
+    scored_by={398416}
+    source="Original"
+    status="Finished Airing"
+    studios={
+      Array [
+        Object {
+          "mal_id": 14,
+          "name": "Sunrise",
+          "title": "Sunrise",
+          "type": "anime",
+          "url": "https://myanimelist.net/anime/producer/14/Sunrise",
+        },
+      ]
+    }
+    synopsis="In the year 2071, humanity has colonized several of the planets and moons of the solar system leaving the now uninhabitable surface of planet Earth behind. The Inter Solar System Police attempts to keep peace in the galaxy, aided in part by outlaw bounty hunters, referred to as \\"Cowboys.\\" The ragtag team aboard the spaceship Bebop are two such individuals. Mellow and carefree Spike Spiegel is balanced by his boisterous, pragmatic partner Jet Black as the pair makes a living chasing bounties and collecting rewards. Thrown off course by the addition of new members that they meet in their travels—Ein, a genetically engineered, highly intelligent Welsh Corgi; femme fatale Faye Valentine, an enigmatic trickster with memory loss; and the strange computer whiz kid Edward Wong—the crew embarks on thrilling adventures that unravel each member's dark and mysterious past little by little. Well-balanced with high density action and light-hearted comedy, Cowboy Bebop is a space Western classic and an homage to the smooth and improvised music it is named after. [Written by MAL Rewrite]"
+    title="Cowboy Bebop"
+    title_english="Cowboy Bebop"
+    title_japanese="カウボーイビバップ"
+    title_synonyms={null}
+    trailer_url="https://www.youtube.com/embed/qig4KOK2R2g?enablejsapi=1&wmode=opaque&autoplay=1"
+    type="TV"
+  />
+</SideEffect(DocumentTitle)>
 `;

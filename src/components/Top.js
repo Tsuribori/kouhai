@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import DocumentTitle from 'react-document-title';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import { Grid } from '@material-ui/core';
@@ -42,22 +43,24 @@ class Top extends Component {
   });  
 
   render() {
-    return ( 
-      <InfiniteScroll
-        loadMore={this.loadMoreTop}
-        initialLoad={true}
-        hasMore={true}
-        loader={<Loading key='topLoader' />}
-      >
-        <div className={this.props.classes.root}>
-          <Grid container
-            spacing={8}
-            justify="center"
-          >
-            {this.state.content}  
-          </Grid>
-        </div>
-      </InfiniteScroll>
+    return (
+      <DocumentTitle title='Top'> 
+        <InfiniteScroll
+          loadMore={this.loadMoreTop}
+          initialLoad={true}
+          hasMore={true}
+          loader={<Loading key='topLoader' />}
+        >
+          <div className={this.props.classes.root}>
+            <Grid container
+              spacing={8}
+              justify="center"
+            >
+              {this.state.content}  
+            </Grid>
+          </div>
+        </InfiniteScroll>
+      </DocumentTitle>
     );
   }
 }

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import DocumentTitle from 'react-document-title';
 import Loading from './Loading.js';
 import AnimeDetail from './AnimeDetail.js';
 const jikanjs = require('jikanjs');
@@ -7,7 +8,8 @@ class Detail extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      content: <Loading />
+      content: <Loading />,
+      series: 'Loading...',
     }
   }
   
@@ -22,13 +24,17 @@ class Detail extends Component {
         key={response.mal_id}
         {...response} 
       />
-      this.setState({ content: detail });
+      this.setState({ content: detail, series: response.title });
       resolve();
     });
   });
 
   render() {
-    return this.state.content;
+    return (
+      <DocumentTitle title={this.state.series}>
+        {this.state.content}
+      </DocumentTitle>
+    );
   }
 }
 

@@ -1,15 +1,66 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
-import { Card, CardActionArea, CardContent, CardMedia, Paper, Grid, List, ListItem, ListItemIcon, ListItemText, Typography } from '@material-ui/core';
-import { StarRate, Movie, LiveTv, Tv, AccessTime, Info, Style } from '@material-ui/icons';
+import { Card, CardActionArea, CardContent, CardMedia, Paper, Grid, List, ListItem, ListItemIcon, ListItemText, Typography, Link } from '@material-ui/core';
+import { StarRate, Movie, LiveTv, Tv, AccessTime, Info, Style, Business, PlayArrow, DateRange } from '@material-ui/icons';
+import moment from 'moment';
 
 const styles = theme => ({
   nested: { 
     paddingLeft: theme.spacing.unit * 10,
-  }
+  },
 });
 
+const formatDate = (props) => {
+  if (props.aired.from === null) {
+    return null;
+  }
+  else if (props.type === 'Movie') {
+    return moment(props.aired.from).format('YYYY/MM/DD');
+  }
+  else {
+    return `${moment(props.aired.from).format('YYYY/MM/DD')} - ${props.aired.to ? moment(props.aired.to).format('YYYY/MM/DD') : 'Ongoing'}`;
+  }
+};
+
+const info = (props) => [
+  {
+    'name': 'score',
+    'icon': <StarRate/>,
+    'value': props.score,
+  },
+  {
+    'name': 'type',
+    'icon': <Movie/>,
+    'value': props.type,
+  },
+  {
+    'name': 'episodes',
+    'icon': <LiveTv/>,
+    'value': props.episodes,
+  },
+  {
+    'name': 'status',
+    'icon': <Tv/>,
+    'value': props.status,
+  },
+  {
+    'name': 'aired',
+    'icon': <DateRange/>,
+    'value': formatDate(props),
+  },
+  {
+    'name': 'broadcast',
+    'icon': <AccessTime/>,
+    'value': props.broadcast,
+  },
+  {
+    'name': 'studio',
+    'icon': <Business/>,
+    'value': props.studios.length > 0 ? props.studios[0].name : null,
+  },
+];
+   
 function AnimeDetail(props) {
    return (
      <div> 
@@ -42,55 +93,19 @@ function AnimeDetail(props) {
      
      <Paper>      
      <List>
-       <ListItem>
-         <ListItemIcon>
-            <StarRate />
-         </ListItemIcon>
-         <ListItemText
-           primary={props.score}
-           secondary="score"
-         />
-       </ListItem>
-       <ListItem>
-         <ListItemIcon>
-           <Movie />
-         </ListItemIcon>
-         <ListItemText
-           primary={props.type}
-           secondary="type"
-         />
-       </ListItem>
-       { props.episodes &&
-       <ListItem>
-         <ListItemIcon>
-           <LiveTv />
-         </ListItemIcon>
-         <ListItemText
-           primary={props.episodes}
-           secondary="episodes"
-         />
-       </ListItem>
-       }
-       <ListItem>
-         <ListItemIcon>
-           <Tv />
-         </ListItemIcon>
-         <ListItemText
-           primary={props.status}
-           secondary="status"
-         />
-       </ListItem>
-       { props.broadcast &&
-       <ListItem>
-         <ListItemIcon>
-           <AccessTime />
-         </ListItemIcon>
-         <ListItemText
-           primary={props.broadcast}
-           secondary="broadcast"
-         />
-       </ListItem>
-       }
+       {info(props).map((obj) => (
+         obj.value && (
+           <ListItem key={obj.name}>
+             <ListItemIcon>
+               {obj.icon}
+             </ListItemIcon>
+             <ListItemText
+               primary={obj.value}
+               secondary={obj.name}
+             />
+           </ListItem>
+         )
+       ))}
        { props.synopsis &&
        <ListItem alignItems="flex-start">
          <ListItemIcon>
@@ -102,6 +117,20 @@ function AnimeDetail(props) {
          />
        </ListItem>
        }
+       <ListItem>
+         <ListItemIcon>
+           <PlayArrow/>
+         </ListItemIcon>
+         <ListItemText>
+           <Link 
+             target="_blank"
+             rel="noreferrer"
+             href={props.trailer_url}
+           >
+             View trailer
+           </Link>
+         </ListItemText>
+       </ListItem>
        <ListItem>
          <ListItemIcon>
            <Style />

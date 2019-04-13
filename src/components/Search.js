@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import DocumentTitle from 'react-document-title';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import { Grid } from '@material-ui/core';
@@ -63,27 +64,29 @@ class Search extends Component {
 
   render() {
     return (
-      <div>
-      <SearchBar
-        value={this.state.value}
-        onChange={this.onSearch}
-        onRequestSearch={this.onSearch}
-      />
-      <InfiniteScroll
-        loadMore={this.loadMoreResults}
-        hasMore={this.state.searchActive}
-        loader={<Loading key='searchLoader' />}
-      >
-        <div className={this.props.classes.root}>
-          <Grid container
-            spacing={8}
-            justify="center"
+      <DocumentTitle title='Search'>
+        <div>
+          <SearchBar
+            value={this.state.value}
+            onChange={this.onSearch}
+            onRequestSearch={this.onSearch}
+          />
+          <InfiniteScroll
+            loadMore={this.loadMoreResults}
+            hasMore={this.state.searchActive}
+            loader={<Loading key='searchLoader' />}
           >
-            {this.state.searchContent}
-          </Grid>
+            <div className={this.props.classes.root}>
+              <Grid container
+                spacing={8}
+                justify="center"
+              >
+                {this.state.searchContent}
+              </Grid>
+            </div>
+          </InfiniteScroll>
         </div>
-      </InfiniteScroll>
-      </div>
+      </DocumentTitle>
     );
   }
 }
